@@ -5,7 +5,7 @@ export const site = {
 		'We develop and operate software products that help individuals and small businesses manage their financial lives with clarity and ease.',
 	url: 'https://fivebitrate.com',
 	contact: {
-		email: 'firdaus@fivebitrate.com'
+		email: 'support@fivebitrate.com'
 	}
 } as const;
 
@@ -14,7 +14,7 @@ export type Product = {
 	tagline: string;
 	description: string;
 	url: string;
-	icon: 'users' | 'ledger' | 'bike';
+	logo: string;
 };
 
 export const products: Product[] = [
@@ -24,7 +24,7 @@ export const products: Product[] = [
 		description:
 			'Group expense tracking made simple. Create shared vaults, log expenses in real-time, and settle up with ease — perfect for roommates, travel groups, and families.',
 		url: 'https://duitgee.com',
-		icon: 'users'
+		logo: 'https://duitgee.com/favicon.svg'
 	},
 	{
 		title: 'Gee Ledger',
@@ -32,7 +32,7 @@ export const products: Product[] = [
 		description:
 			'A multi-business accounting platform for freelancers and entrepreneurs. Manage income, invoicing, products, and team access across all your ventures from one dashboard.',
 		url: 'https://geeledger.com',
-		icon: 'ledger'
+		logo: 'https://geeledger.com/favicon.svg'
 	},
 	{
 		title: 'BikeSynergy',
@@ -40,6 +40,6 @@ export const products: Product[] = [
 		description:
 			'Specialist mountain bike supplier with over 20 years of experience. Offering discounted bikes, on-campus maintenance services, and professional coaching.',
 		url: 'https://bikesynergy.com',
-		icon: 'bike'
+		logo: 'https://bikesynergy.com/favicon.ico'
 	}
 ];

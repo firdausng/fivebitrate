@@ -17,6 +17,21 @@
 	},
 	"observability": {
 		"enabled": true
+	},
+	"env": {
+		"production": {
+			"assets": {
+				"binding": "ASSETS",
+				"directory": ".svelte-kit/cloudflare"
+			},
+			"routes": [
+				{
+					"pattern": "fivebitrate.com",
+					"custom_domain": true
+				}
+			],
+			"vars": {}
+		}
 	}
 	/**
 	 * Smart Placement
