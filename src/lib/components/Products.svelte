@@ -1,32 +1,6 @@
 <script lang="ts">
 	import { inview } from '$lib/actions/inview';
-
-	const products = [
-		{
-			title: 'DuitGee',
-			tagline: 'Track Money, Not Drama',
-			description:
-				'Group expense tracking made simple. Create shared vaults, log expenses in real-time, and settle up with ease — perfect for roommates, travel groups, and families.',
-			url: 'https://duitgee.com',
-			icon: 'users'
-		},
-		{
-			title: 'Gee Ledger',
-			tagline: 'Your finances, clearly organised',
-			description:
-				'A multi-business accounting platform for freelancers and entrepreneurs. Manage income, invoicing, products, and team access across all your ventures from one dashboard.',
-			url: 'https://geeledger.com',
-			icon: 'ledger'
-		},
-		{
-			title: 'BikeSynergy',
-			tagline: 'Mountain bike equipment, maintenance & coaching',
-			description:
-				'Specialist mountain bike supplier with over 20 years of experience. Offering discounted bikes, on-campus maintenance services, and professional coaching.',
-			url: 'https://bikesynergy.com',
-			icon: 'bike'
-		}
-	];
+	import { products } from '$lib/config';
 </script>
 
 <section id="products" class="bg-slate-900/40 px-6 py-24">

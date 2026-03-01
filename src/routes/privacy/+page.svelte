@@ -1,5 +1,9 @@
+<script lang="ts">
+	import { site } from '$lib/config';
+</script>
+
 <svelte:head>
-	<title>Privacy Policy — FiveBitRate</title>
+	<title>Privacy Policy — {site.name}</title>
 </svelte:head>
 
 <div class="mx-auto max-w-3xl px-6 pt-32 pb-16">
@@ -8,7 +12,7 @@
 		<p class="text-slate-400">Last updated: March 1, 2026</p>
 
 		<p>
-			FiveBitRate ("we", "us", or "our") operates software products and services. This Privacy
+			{site.name} ("we", "us", or "our") operates software products and services. This Privacy
 			Policy explains how we collect, use, and protect your personal information when you use our
 			products and visit our website.
 		</p>
@@ -84,7 +88,7 @@
 		<h2>Contact Us</h2>
 		<p>
 			If you have questions about this Privacy Policy or how we handle your data, please contact us
-			at <a href="mailto:firdaus@fivebitrate.com">firdaus@fivebitrate.com</a>.
+			at <a href="mailto:{site.contact.email}">{site.contact.email}</a>.
 		</p>
 	</div>
 </div>

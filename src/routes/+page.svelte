@@ -3,10 +3,11 @@
 	import About from '$lib/components/About.svelte';
 	import Products from '$lib/components/Products.svelte';
 	import Contact from '$lib/components/Contact.svelte';
+	import { site } from '$lib/config';
 </script>
 
 <svelte:head>
-	<title>FiveBitRate — Building software that simplifies your finances</title>
+	<title>{site.name} — {site.tagline}</title>
 </svelte:head>
 
 <Hero />

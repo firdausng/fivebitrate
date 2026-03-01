@@ -1,3 +1,7 @@
+<script lang="ts">
+	import { site } from '$lib/config';
+</script>
+
 <section class="relative flex min-h-screen items-center justify-center overflow-hidden">
 	<!-- Decorative gradient orbs -->
 	<div
@@ -15,12 +19,11 @@
 		</h1>
 
 		<p class="animate-fade-in-up-slow mt-6 text-xl text-slate-300 md:text-2xl">
-			Building software that simplifies your finances
+			{site.tagline}
 		</p>
 
 		<p class="animate-fade-in-up-slower mx-auto mt-6 max-w-xl text-slate-400">
-			We develop and operate software products that help individuals and small businesses manage
-			their financial lives with clarity and ease.
+			{site.description}
 		</p>
 
 		<div class="animate-fade-in-up-slower mt-10">

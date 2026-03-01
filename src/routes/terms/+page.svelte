@@ -1,5 +1,9 @@
+<script lang="ts">
+	import { site } from '$lib/config';
+</script>
+
 <svelte:head>
-	<title>Terms of Service — FiveBitRate</title>
+	<title>Terms of Service — {site.name}</title>
 </svelte:head>
 
 <div class="mx-auto max-w-3xl px-6 pt-32 pb-16">
@@ -9,7 +13,7 @@
 
 		<p>
 			These Terms of Service ("Terms") govern your use of the products and services provided by
-			FiveBitRate ("we", "us", or "our"). By accessing or using our services, you agree to be bound
+			{site.name} ("we", "us", or "our"). By accessing or using our services, you agree to be bound
 			by these Terms.
 		</p>
 
@@ -22,7 +26,7 @@
 
 		<h2>Description of Services</h2>
 		<p>
-			FiveBitRate provides software products focused on financial management, including personal
+			{site.name} provides software products focused on financial management, including personal
 			expense tracking and small business transaction management tools. We may add, modify, or
 			discontinue features at any time with reasonable notice.
 		</p>
@@ -47,7 +51,7 @@
 		<h2>Intellectual Property</h2>
 		<p>
 			All content, features, and functionality of our products — including but not limited to text,
-			graphics, logos, software, and design — are owned by FiveBitRate and are protected by
+			graphics, logos, software, and design — are owned by {site.name} and are protected by
 			intellectual property laws. You retain ownership of any data you enter into our products.
 		</p>
 
@@ -60,7 +64,7 @@
 
 		<h2>Limitation of Liability</h2>
 		<p>
-			To the fullest extent permitted by law, FiveBitRate shall not be liable for any indirect,
+			To the fullest extent permitted by law, {site.name} shall not be liable for any indirect,
 			incidental, special, consequential, or punitive damages arising from your use of our services.
 			Our total liability shall not exceed the amount you paid us in the twelve months preceding the
 			claim.
@@ -98,7 +102,7 @@
 		<h2>Contact Us</h2>
 		<p>
 			If you have questions about these Terms, please contact us at
-			<a href="mailto:firdaus@fivebitrate.com">firdaus@fivebitrate.com</a>.
+			<a href="mailto:{site.contact.email}">{site.contact.email}</a>.
 		</p>
 	</div>
 </div>
