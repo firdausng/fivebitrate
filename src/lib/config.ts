@@ -43,11 +43,11 @@ export const products: Product[] = [
 		logo: 'https://bikesynergy.com/favicon.ico'
 	},
 	{
-		title: "Gee's Pes Kisar",
+		title: "NilaiRasa By NurzeRani",
 		tagline: 'Pes masak segar, dikisar tiap minggu',
 		description:
 			'A WhatsApp-first ordering site for a home-based fresh sambal-paste business in Nilai — freshly-ground chilli, shallot, garlic and ginger pastes, delivered weekly. Built on SvelteKit, shadcn-svelte and Cloudflare.',
-		url: 'https://nurzerani.com',
-		logo: 'https://nurzerani.com/favicon.svg'
+		url: 'https://nilairasa.com',
+		logo: 'https://nilairasa.com/favicon.svg'
 	}
 ];
